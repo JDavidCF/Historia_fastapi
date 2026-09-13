@@ -145,7 +145,6 @@ MAPA_HISTORIA_LOTE = {
     }
 }
 
-
 def avanzar_motor_narrativo(data):
 
     nodo = data.nodo_actual

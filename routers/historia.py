@@ -9,6 +9,7 @@ def jugar(data: HistoriaRequest):
         return avanzar_motor_narrativo(data)
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
+
         
 @router.get("/historia/{nodo}")
 def mostrar_opciones(nodo: str):
